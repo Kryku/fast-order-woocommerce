@@ -126,14 +126,6 @@ function qbb_register_settings() {
     );
     
     add_settings_field(
-        'qbb_keycrm_key',
-        'KeyCRM key',
-        'qbb_keycrm_key_callback',
-        'qbb_integration',
-        'qbb_integration_section'
-    );
-    
-    add_settings_field(
         'qbb_keycrm_source',
         'KeyCRM source',
         'qbb_keycrm_source_callback',
